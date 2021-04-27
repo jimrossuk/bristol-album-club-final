@@ -57,6 +57,7 @@ padding: 0;
     font-size: larger;
 }
 
+
 .this-month{
     background: red;
 }
@@ -70,12 +71,12 @@ padding: 0;
 
 .album-info{
     // background: slategrey;
-    border: 3px solid red;
+    // border: 3px solid red;
     display: flex; 
     padding-left: 1rem ;
 }
 .album-data{
-    background: blue;
+    // background: blue;
     margin: 0 auto;
 }
 
@@ -88,4 +89,14 @@ padding: 0;
 .site-main > *{
     margin: 0 !important;
     padding: 0;
+}
+
+.date{
+    font-size: 1.2rem;
+    color: #a9a5a5;
+    text-align: right;
+}
+
+.p-l{
+    padding-left: 1rem;
 }

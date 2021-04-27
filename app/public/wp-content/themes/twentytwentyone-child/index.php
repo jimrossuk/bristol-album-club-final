@@ -36,7 +36,7 @@ get_header();
                 $image = get_field('album_cover');
                 if( !empty( $image ) ): ?>
                 <a  href="<?php the_permalink(); ?>" ?>
-                <div class="a123">
+                <div class="">
 
                     <h4 class=" index-title-artist"> <?php the_field('artist')  ; ?></h4>
 	                <h3 class="index-title-album-name"> <?php the_field('album_name')  ; ?></h3>

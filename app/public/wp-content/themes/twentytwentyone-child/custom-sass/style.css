@@ -1,6 +1,6 @@
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 650px) {
   .artist {
-    color: rgba(17, 0, 255, 0.301);
+    color: firebrick;
   }
 }
 
@@ -77,7 +77,6 @@ a {
 }
 
 .album-info {
-  border: 3px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,7 +84,6 @@ a {
 }
 
 .album-data {
-  background: blue;
   margin: 0 auto;
 }
 
@@ -99,5 +97,15 @@ a {
 .site-main > * {
   margin: 0 !important;
   padding: 0;
+}
+
+.date {
+  font-size: 1.2rem;
+  color: #a9a5a5;
+  text-align: right;
+}
+
+.p-l {
+  padding-left: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

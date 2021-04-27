@@ -24,7 +24,7 @@ get_header();
 	<img class="album-index-page" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />			<?php endif; ?>
 	
 	<div class="album-data">
-		<p> <?php the_field('date')  ; ?></p>
+		<p class="date"> <?php the_field('date')  ; ?></p>
 		<p class="ave-score"> Average Score: <?php the_field('average_socre')  ; ?></p>
 		<!-- <p> Club Average: <?php the_field('club_average')  ; ?></p> -->
 		<!-- <p> Club Max: <?php the_field('club_max')  ; ?></p>
@@ -35,11 +35,14 @@ get_header();
 </div>  
 <!-- End of album-info -->
 </div>
-<h5> Introduced by: <?php the_field('who_picked_it')  ; ?></h5>
+<div class="p-l">
+
+	<h5> Introduced by: <?php the_field('who_picked_it')  ; ?></h5>
 	<?php
 	$link = get_field('find_the_album_here');
-if( $link ): ?>
+	if( $link ): ?>
     <a class=" centre" href="<?php echo esc_url( $link ); ?>">Rock Out Here</a>
+</div>
 <?php endif; ?>
 <?php
 
