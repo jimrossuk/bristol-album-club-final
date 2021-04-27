@@ -80,5 +80,12 @@ padding: 0;
 
 .flex{
     display: flex;
+    margin: 0 !important;
 }
 
+
+.site-main > *{
+   
+    margin: 0 !important;
+    padding: 0;
+}
