@@ -1,0 +1,48 @@
+h1, h4, h5, h6{
+    background-color: blue;
+    margin: 0;
+    padding-bottom: 0;
+  background-color: green;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.centre{
+    background-color: PINK ;
+    padding:1em;
+    text-align: right;
+    display:inline-block;
+    text-decoration: none !important;
+    margin: auto 0 ;
+    border-radius: 8px;
+    color: blue;
+    
+
+}
+.entry-footer{
+ display: none !important;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+// .site-main{
+//     margin: 0 !important;
+
+// }:first-child{
+//     margin: none;
+// }
+
+.album-index-page{
+border: 2px red dotted;
+display: block;
+margin: 0 auto;
+}
+.album{
+    padding: 3rem;
+}:first-child{
+    padding-top: 0;
+    margin-top: 0;
+}
