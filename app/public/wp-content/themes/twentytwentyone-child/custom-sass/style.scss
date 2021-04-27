@@ -50,8 +50,11 @@ padding: 0;
     padding-top: 0;
     margin-top: 0;
 }
+
+// adjusting the score size on Index page
 .ave-score{
     background: #E2E2E2;
+    font-size: larger;
 }
 
 .this-month{
@@ -68,9 +71,7 @@ padding: 0;
 .album-info{
     // background: slategrey;
     border: 3px solid red;
-    display: flex;
-    
-    
+    display: flex; 
     padding-left: 1rem ;
 }
 .album-data{
@@ -83,9 +84,8 @@ padding: 0;
     margin: 0 !important;
 }
 
-
+// adjusting the paddinng and marging on the site main div on the index page. Text boxes are now closer
 .site-main > *{
-   
     margin: 0 !important;
     padding: 0;
 }
