@@ -1,17 +1,32 @@
-h1, h4, h5, h6 {
-  background-color: blue;
-  margin: 0;
-  padding-bottom: 0;
-  background-color: green;
-  text-align: center;
+@media screen and (max-width: 900px) {
+  .artist {
+    color: rgba(17, 0, 255, 0.301);
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+  text-align: inherit;
 }
 
 h2 {
   text-align: center;
 }
 
+.index-title-artist {
+  text-transform: uppercase;
+}
+
+.index-title-album-name {
+  font-size: smaller;
+}
+
 .centre {
-  background-color: PINK;
+  background-color: red;
   padding: 1em;
   text-align: right;
   display: inline-block;
@@ -31,17 +46,51 @@ a {
 }
 
 .album-index-page {
-  border: 2px red dotted;
   display: block;
   margin: 0 auto;
+  padding: 0;
 }
 
 .album {
-  padding: 3rem;
+  padding: .1rem;
 }
 
 :first-child {
   padding-top: 0;
   margin-top: 0;
+}
+
+.ave-score {
+  background: #E2E2E2;
+}
+
+.this-month {
+  background: red;
+}
+
+.artist {
+  display: block;
+  padding: 0;
+  margin: 0 !important;
+  text-align: center;
+}
+
+.album-info {
+  border: 3px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 1rem;
+}
+
+.album-data {
+  background: blue;
+  margin: 0 auto;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */

@@ -12,22 +12,30 @@
 get_header();
 
 ?>
-	<h1> <?php the_field('artist')  ; ?></h1>
-<?php
+	<h5 class="artist"> <?php the_field('artist')  ; ?></h5>
+	<h4 class="artist"> <?php the_field('album_name')  ; ?></h4>
+	<div class="flex">
 
+<div class=" album-info">
+			
+	<?php
 	$image = get_field('album_cover');
-$size = 'full'; // (thumbnail, medium, large, full or custom size)
-if( $image ) {
-    echo wp_get_attachment_image( $image, $size );
-}
-
-?>
-
-	<h1> <?php the_field('album')  ; ?></h1>
-	<h4> <?php the_field('album_name')  ; ?></h1>
-	<h5> <?php the_field('who_picked_it')  ; ?></h1>
-	<h6> <?php the_field('rating')  ; ?></h1>
+    if( !empty( $image ) ): ?>
+	<img class="album-index-page" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />			<?php endif; ?>
 	
+	<div class="album-data">
+		<p> <?php the_field('date')  ; ?></p>
+		<p class="ave-score"> Average Score: <?php the_field('average_socre')  ; ?></p>
+		<!-- <p> Club Average: <?php the_field('club_average')  ; ?></p> -->
+		<!-- <p> Club Max: <?php the_field('club_max')  ; ?></p>
+		<p> Club Minimum: <?php the_field('club_minimum')  ; ?></p> -->
+		<p> Total Votes: <?php the_field('total_votes')  ; ?></p>
+	</div>
+	
+</div>  
+<!-- End of album-info -->
+</div>
+<h5> Introduced by: <?php the_field('who_picked_it')  ; ?></h5>
 	<?php
 	$link = get_field('find_the_album_here');
 if( $link ): ?>

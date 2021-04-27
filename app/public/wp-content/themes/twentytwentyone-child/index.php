@@ -1,7 +1,9 @@
 <?php
 /**
  * The main template file
+ * 
  *
+ * 
  * This is the most generic template file in a WordPress theme
  * and one of the two required files for a theme (the other being style.css).
  * It is used to display a page when nothing more specific matches a query.
@@ -20,7 +22,8 @@ get_header();
 <div class="content-container">
     <?php if ( is_home() ) : ?>
         <h1 class="page-title"><?php single_post_title(); ?></h1>
-
+        <div></div>
+        <h2 class=" this-month"> This month's album</h2>
         <div class="container">
     <div class="row">
         <div class="blog-posts col-md-8">
@@ -33,8 +36,11 @@ get_header();
                 $image = get_field('album_cover');
                 if( !empty( $image ) ): ?>
                 <a  href="<?php the_permalink(); ?>" ?>
-                    <h4> <?php the_field('artist')  ; ?></h4>
-	                <h3> <?php the_field('album_name')  ; ?></h3>
+                <div class="a123">
+
+                    <h4 class=" index-title-artist"> <?php the_field('artist')  ; ?></h4>
+	                <h3 class="index-title-album-name"> <?php the_field('album_name')  ; ?></h3>
+                </div>
                     <img class="album-index-page" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
                 </a>
                 <?php endif; ?>
