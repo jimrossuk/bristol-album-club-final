@@ -85,6 +85,7 @@ a {
 
 .album-data {
   margin: 0 auto;
+  padding-left: 1rem;
 }
 
 .flex {
@@ -103,6 +104,7 @@ a {
   font-size: 1.2rem;
   color: #a9a5a5;
   text-align: right;
+  padding-bottom: 2rem;
 }
 
 .p-l {
