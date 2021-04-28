@@ -83,7 +83,7 @@ padding: 0;
     margin: 0 auto;
     padding-left: 1rem;
     padding: 1.2rem;
-    background: darkcyan;
+    // background: darkcyan;
     border-radius: 4px;
    
 }
@@ -114,4 +114,8 @@ padding: 0;
 }
 .r{
     color: red;
+}
+.site-header.has-title-and-tagline.has-menu{
+padding-bottom: 3px;
+
 }

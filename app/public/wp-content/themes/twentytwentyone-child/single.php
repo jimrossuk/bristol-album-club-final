@@ -26,7 +26,7 @@ get_header();
 	<div class="album-data">
 		<p class="date"> <?php the_field('date')  ; ?></p>
 		<p class="ave score"> Average Score: </p>
-		<p class="ave score"> <?php the_field('average_socre')  ; ?></p>
+		<h6 class="ave score"> <?php the_field('average_socre')  ; ?></h6>
 		<div class='ave'>
 
 			<p> Club Average:</p>
