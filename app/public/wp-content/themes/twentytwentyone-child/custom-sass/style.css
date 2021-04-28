@@ -4,8 +4,9 @@
     display: -ms-flexbox;
     display: flex;
   }
-  .date {
-    text-align: left !important;
+  .album-pic-page {
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
 }
 
@@ -51,6 +52,7 @@ a {
 }
 
 .album-pic-page {
+  display: block;
   margin: 0 auto;
   padding: 0;
 }
