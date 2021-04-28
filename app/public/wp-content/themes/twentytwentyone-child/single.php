@@ -14,7 +14,7 @@ get_header();
 ?>
 	<h5 class="artist"> <?php the_field('artist')  ; ?></h5>
 	<h4 class="artist"> <?php the_field('album_name')  ; ?></h4>
-	<div class="flex">
+	<div class="">
 
 <div class=" album-info">
 			

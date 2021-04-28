@@ -1,9 +1,6 @@
-@media screen and (max-width: 550px) {
-    .album-data {
-      background: pink;
-      
-      // display: flex;
-      // flex-direction:column-reverse;
+@media screen and (min-width: 550px) {
+    .album-info{
+      display: flex;
     }
     .date{
       text-align: left !important;

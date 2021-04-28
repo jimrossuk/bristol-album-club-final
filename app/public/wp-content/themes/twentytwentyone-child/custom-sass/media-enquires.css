@@ -1,6 +1,8 @@
-@media screen and (max-width: 550px) {
-  .album-data {
-    background: pink;
+@media screen and (min-width: 550px) {
+  .album-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .date {
     text-align: left !important;
