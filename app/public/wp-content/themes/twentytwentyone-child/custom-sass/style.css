@@ -89,8 +89,7 @@ a {
 }
 
 .album-info {
-  padding-left: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 0 1rem 1rem;
 }
 
 .album-data {
