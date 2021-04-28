@@ -8,5 +8,8 @@
     -ms-flex-line-pack: center;
         align-content: center;
   }
+  .album-data {
+    margin-top: 20px;
+  }
 }
 /*# sourceMappingURL=media-enquires.css.map */
