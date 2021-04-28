@@ -32,9 +32,10 @@ get_header();
 			<p> Club Average:</p>
 			<p > <?php the_field('club_average')  ; ?></p> 
 		</div>
-		<p> Club Max: <?php the_field('club_max')  ; ?></p>
-		<p> Club Minimum: <?php the_field('club_minimum')  ; ?></p>
-		<p> Total Votes: <?php the_field('total_votes')  ; ?></p>
+		<p class='ave'> Club Max: </p>
+		<p class='ave'><?php the_field('club_max')  ; ?></p>
+		<p class='ave'> Club Minimum: <?php the_field('club_minimum')  ; ?></p>
+		<p class='ave r'> Total Votes: <?php the_field('total_votes')  ; ?></p>
 	</div>
 	
 </div>  

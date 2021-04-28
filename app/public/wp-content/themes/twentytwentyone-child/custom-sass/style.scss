@@ -75,17 +75,17 @@ padding: 0;
 }
 
 .album-info{
-    // background: slategrey;
-    // border: 3px solid red;
-    // display: flex; 
+  
     padding-left: 1rem ;
     padding-bottom: 1rem;
 }
 .album-data{
-    // background: blue;
     margin: 0 auto;
     padding-left: 1rem;
-    // display: block;
+    padding: 1.2rem;
+    background: darkcyan;
+    border-radius: 4px;
+   
 }
 
 .flex{
@@ -111,4 +111,7 @@ padding: 0;
 
 .spotify-link{
     width: 100px;
+}
+.r{
+    color: red;
 }

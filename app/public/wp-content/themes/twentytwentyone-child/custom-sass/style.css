@@ -96,6 +96,9 @@ a {
 .album-data {
   margin: 0 auto;
   padding-left: 1rem;
+  padding: 1.2rem;
+  background: darkcyan;
+  border-radius: 4px;
 }
 
 .flex {
@@ -119,5 +122,9 @@ a {
 
 .spotify-link {
   width: 100px;
+}
+
+.r {
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */
