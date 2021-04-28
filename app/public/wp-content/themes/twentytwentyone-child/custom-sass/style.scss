@@ -53,9 +53,12 @@ padding: 0;
 }
 
 // adjusting the score size on Index page
-.ave-score{
+.score{
     background: #E2E2E2;
     font-size: larger;
+    
+}
+.ave{
     text-align: center;
 }
 
@@ -76,6 +79,7 @@ padding: 0;
     // border: 3px solid red;
     // display: flex; 
     padding-left: 1rem ;
+    padding-bottom: 1rem;
 }
 .album-data{
     // background: blue;

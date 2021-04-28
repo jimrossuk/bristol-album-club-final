@@ -69,9 +69,12 @@ a {
   margin-top: 0;
 }
 
-.ave-score {
+.score {
   background: #E2E2E2;
   font-size: larger;
+}
+
+.ave {
   text-align: center;
 }
 
@@ -87,6 +90,7 @@ a {
 
 .album-info {
   padding-left: 1rem;
+  padding-bottom: 1rem;
 }
 
 .album-data {

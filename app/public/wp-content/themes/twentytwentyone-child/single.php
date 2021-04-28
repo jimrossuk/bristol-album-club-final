@@ -25,10 +25,14 @@ get_header();
 	
 	<div class="album-data">
 		<p class="date"> <?php the_field('date')  ; ?></p>
-		<p class="ave-score"> Average Score: </p>
-		<p class="ave-score"> <?php the_field('average_socre')  ; ?></p>
-		<p> Club Average: <?php the_field('club_average')  ; ?></p> 
-		 <p> Club Max: <?php the_field('club_max')  ; ?></p>
+		<p class="ave score"> Average Score: </p>
+		<p class="ave score"> <?php the_field('average_socre')  ; ?></p>
+		<div class='ave'>
+
+			<p> Club Average:</p>
+			<p > <?php the_field('club_average')  ; ?></p> 
+		</div>
+		<p> Club Max: <?php the_field('club_max')  ; ?></p>
 		<p> Club Minimum: <?php the_field('club_minimum')  ; ?></p>
 		<p> Total Votes: <?php the_field('total_votes')  ; ?></p>
 	</div>
