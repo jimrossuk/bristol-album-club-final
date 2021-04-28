@@ -41,8 +41,10 @@ get_header();
 	<?php
 	$link = get_field('find_the_album_here');
 	if( $link ): ?>
-    <a class=" centre" href="<?php echo esc_url( $link ); ?>">Rock Out Here</a>
+    <a  href="<?php echo esc_url( $link ); ?>"><img  class="spotify-link" src="http://localhost:10003/wp-content/uploads/2021/04/icon1@2x.png" /> </a>
 </div>
 <?php endif; ?>
 <?php
+
+
 
