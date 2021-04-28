@@ -41,7 +41,7 @@ get_header();
                             <h4 class=" index-title-artist"> <?php the_field('artist')  ; ?></h4>
                             <h3 class="index-title-album-name"> <?php the_field('album_name')  ; ?></h3>
                         </div>
-                            <img class="album-index-page" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                            <img class="album-pic-page" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
                         </a>
                         <?php endif; ?>
                         
