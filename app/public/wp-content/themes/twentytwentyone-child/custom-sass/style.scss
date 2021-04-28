@@ -1,4 +1,5 @@
 @import"media-enquires";
+
 *{
     box-sizing:border-box;
 }
@@ -21,7 +22,7 @@ h2{
 }
 .centre{
     background-color: red ;
-    padding:1em;
+    padding:.5em;
     text-align: right;
     display:inline-block;
     text-decoration: none !important;
@@ -40,7 +41,7 @@ a{
 }
 
 .album-index-page{
-    display: block;
+    // display: block;
 margin:0 auto ;
 padding: 0;
 }
@@ -63,7 +64,7 @@ padding: 0;
 }
 
 .artist{
-    display: block ;
+    // display: block ;
     padding: 0;
     margin: 0 !important;
     text-align: center;
@@ -72,17 +73,18 @@ padding: 0;
 .album-info{
     // background: slategrey;
     // border: 3px solid red;
-    display: flex; 
+    // display: flex; 
     padding-left: 1rem ;
 }
 .album-data{
     // background: blue;
     margin: 0 auto;
     padding-left: 1rem;
+    // display: block;
 }
 
 .flex{
-    display: flex;
+    // display: flex;
     margin: 0 !important;
 }
 

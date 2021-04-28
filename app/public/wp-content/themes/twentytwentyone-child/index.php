@@ -25,38 +25,38 @@ get_header();
         <div></div>
         <h2 class=" this-month"> This month's album</h2>
         <div class="container">
-    <div class="row">
-        <div class="blog-posts col-md-8">
-        <?php if ( have_posts() ): ?>
-            <?php while( have_posts() ): ?>
-                <?php the_post(); ?>
-              <div class="album">
+            <div class="row">
+                <div class="blog-posts col-md-8">
+                <?php if ( have_posts() ): ?>
+                    <?php while( have_posts() ): ?>
+                        <?php the_post(); ?>
+                    <div class="album">
 
-                  <?php
-                $image = get_field('album_cover');
-                if( !empty( $image ) ): ?>
-                <a  href="<?php the_permalink(); ?>" ?>
-                <div class="">
+                        <?php
+                        $image = get_field('album_cover');
+                        if( !empty( $image ) ): ?>
+                        <a  href="<?php the_permalink(); ?>" ?>
+                        <div class="">
 
-                    <h4 class=" index-title-artist"> <?php the_field('artist')  ; ?></h4>
-	                <h3 class="index-title-album-name"> <?php the_field('album_name')  ; ?></h3>
-                </div>
-                    <img class="album-index-page" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-                </a>
+                            <h4 class=" index-title-artist"> <?php the_field('artist')  ; ?></h4>
+                            <h3 class="index-title-album-name"> <?php the_field('album_name')  ; ?></h3>
+                        </div>
+                            <img class="album-index-page" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                        </a>
+                        <?php endif; ?>
+                        
+                    </div> 
+                    
+                    <?php endwhile; ?>
+                <?php else: ?>
+                    <p><?php _e( 'No Blog Posts found', 'nd_dosth' ); ?></p>
                 <?php endif; ?>
-                
+                </div>
+                <div id="blog-sidebar" class="col-md-4">
+                    
+                </div>
             </div>
-               
-            <?php endwhile; ?>
-        <?php else: ?>
-            <p><?php _e( 'No Blog Posts found', 'nd_dosth' ); ?></p>
-        <?php endif; ?>
-        </div>
-        <div id="blog-sidebar" class="col-md-4">
-            
-        </div>
-    </div>
-</div>
+        </div> 
 
         
     <?php endif; ?>

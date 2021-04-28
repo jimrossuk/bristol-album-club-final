@@ -1,6 +1,9 @@
-@media screen and (min-width: 650px) {
-  .artist {
-    color: firebrick;
+@media screen and (max-width: 550px) {
+  .album-data {
+    background: pink;
+  }
+  .date {
+    text-align: left !important;
   }
 }
 
@@ -27,7 +30,7 @@ h2 {
 
 .centre {
   background-color: red;
-  padding: 1em;
+  padding: .5em;
   text-align: right;
   display: inline-block;
   text-decoration: none !important;
@@ -46,7 +49,6 @@ a {
 }
 
 .album-index-page {
-  display: block;
   margin: 0 auto;
   padding: 0;
 }
@@ -70,16 +72,12 @@ a {
 }
 
 .artist {
-  display: block;
   padding: 0;
   margin: 0 !important;
   text-align: center;
 }
 
 .album-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding-left: 1rem;
 }
 
@@ -89,9 +87,6 @@ a {
 }
 
 .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin: 0 !important;
 }
 

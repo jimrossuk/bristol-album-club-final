@@ -21,14 +21,14 @@ get_header();
 	<?php
 	$image = get_field('album_cover');
     if( !empty( $image ) ): ?>
-	<img class="album-index-page" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />			<?php endif; ?>
+	<img class="album-pic-page" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />			<?php endif; ?>
 	
 	<div class="album-data">
 		<p class="date"> <?php the_field('date')  ; ?></p>
 		<p class="ave-score"> Average Score: <?php the_field('average_socre')  ; ?></p>
-		<!-- <p> Club Average: <?php the_field('club_average')  ; ?></p> -->
-		<!-- <p> Club Max: <?php the_field('club_max')  ; ?></p>
-		<p> Club Minimum: <?php the_field('club_minimum')  ; ?></p> -->
+		<p> Club Average: <?php the_field('club_average')  ; ?></p> 
+		 <p> Club Max: <?php the_field('club_max')  ; ?></p>
+		<p> Club Minimum: <?php the_field('club_minimum')  ; ?></p>
 		<p> Total Votes: <?php the_field('total_votes')  ; ?></p>
 	</div>
 	

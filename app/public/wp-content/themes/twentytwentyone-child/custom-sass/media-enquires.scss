@@ -1,9 +1,17 @@
-@media screen and (min-width: 650px) {
-    .artist {
-      color: firebrick;
+@media screen and (max-width: 550px) {
+    .album-data {
+      background: pink;
+      
+      // display: flex;
+      // flex-direction:column-reverse;
+    }
+    .date{
+      text-align: left !important;
+    
     }
 
 
 }
 
 
+ 
