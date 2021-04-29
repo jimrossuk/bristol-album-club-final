@@ -37,6 +37,9 @@ get_header();
 		<h6 class='ave'> Club Minimum: <?php the_field('club_minimum')  ; ?></h6>
 		<p class='ave r'> Total Votes: <?php the_field('total_votes')  ; ?></p>
 	</div>
+	<div>
+		
+	</div>
 	
 </div>  
 <!-- End of album-info -->
