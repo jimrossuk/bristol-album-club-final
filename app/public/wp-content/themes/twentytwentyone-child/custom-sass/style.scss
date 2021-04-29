@@ -40,10 +40,15 @@ a{
     text-align: center;
 }
 
+.album-size{
+    width: 100%;
+    padding: 1rem;
+}
 .album-pic-page{
     display: block;
 margin:0 auto ;
 padding: 0;
+max-width: 60%;
 }
 .album{
     padding: .1rem;
@@ -110,6 +115,7 @@ padding: 0;
 
 .spotify-link{
     width: 100px;
+    margin: 0 auto;
 }
 .r{
     color: red;
