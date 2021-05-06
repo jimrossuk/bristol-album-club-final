@@ -39,6 +39,7 @@ get_header();
 		<h6 class='ave'> Club Minimum: <?php the_field('club_minimum')  ; ?></h6>
 		<p class='ave r'> Total Votes: <?php the_field('total_votes')  ; ?></p>
 		<p class='ave '>Rank: <?php the_field('rating'); ?></p>
+		<p class="ave"></p>
 	</div>
 	<div></div>
 	

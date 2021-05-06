@@ -18,7 +18,6 @@ get_header();
 
 <?php
 
- echo do_shortcode('[table-cell id=2 row=6 column=5 /]');
 
 
 
