@@ -60,7 +60,7 @@ a {
 }
 
 .album-size {
-  width: 100%;
+  width: 90%;
   padding: 1rem;
 }
 
@@ -127,15 +127,22 @@ a {
 
 .p-l {
   padding-left: 1rem;
+  margin: 0 auto;
 }
 
 .spotify-link {
-  width: 100px;
+  display: block;
+  width: 50px;
   margin: 0 auto;
 }
 
 .r {
   color: red;
+}
+
+.intro-link {
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .site-header.has-title-and-tagline.has-menu {

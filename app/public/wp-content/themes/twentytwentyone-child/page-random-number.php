@@ -14,8 +14,11 @@ get_header();
         </script>
 
 </h1>
+
+
 <?php
 
+ echo do_shortcode('[table-cell id=2 row=6 column=5 /]');
 
 
 

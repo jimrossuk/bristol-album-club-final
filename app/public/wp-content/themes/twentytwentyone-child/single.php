@@ -23,10 +23,12 @@ get_header();
     if( !empty( $image ) ): ?>
 	<img class="album-pic-page album-size" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />			<?php endif; ?>
 	
+
+	
 	<div class="album-data">
 		<p class="date"> <?php the_field('date')  ; ?></p>
 		<p class="ave score"> Average Score: </p>
-		<h6 class="ave score"> <?php the_field('average_socre')  ; ?></h6>
+		<h6 class="ave score"> <?php the_field('average_socre'); ?></h6>
 		<div class='ave'>
 
 		<p> Club Average:</p>
@@ -36,17 +38,17 @@ get_header();
 		<h5 class='ave'><?php the_field('club_max')  ; ?></h5>
 		<h6 class='ave'> Club Minimum: <?php the_field('club_minimum')  ; ?></h6>
 		<p class='ave r'> Total Votes: <?php the_field('total_votes')  ; ?></p>
+		<p class='ave '>Rank: <?php the_field('rating'); ?></p>
 	</div>
-	<div>
-		
-	</div>
+	<div></div>
 	
 </div>  
 <!-- End of album-info -->
 </div>
-<div class="p-l">
+	<div class="p-l">
 
-	<h5> Introduced by: <?php the_field('who_picked_it')  ; ?></h5>
+	<h5 class='intro-link'>Introduced by: </h5>
+	<h5 class='intro-link'><?php the_field('who_picked_it')  ; ?></h5>
 	<?php
 	$link = get_field('find_the_album_here');
 	if( $link ): ?>
