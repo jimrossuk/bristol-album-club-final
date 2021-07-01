@@ -1,0 +1,148 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+  text-align: inherit;
+}
+
+h2 {
+  text-align: center;
+}
+
+.index-title-artist {
+  text-transform: uppercase;
+}
+
+.index-title-album-name {
+  font-size: smaller;
+}
+
+.centre {
+  background-color: red;
+  padding: .5em;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: inline-block;
+  text-decoration: none !important;
+  margin: 0 auto;
+  border-radius: 8px;
+  color: blue;
+  text-align: center;
+}
+
+.entry-footer {
+  display: none !important;
+}
+
+a {
+  text-decoration: none !important;
+  text-align: center;
+}
+
+.album-size {
+  width: 90%;
+  padding: 1rem;
+}
+
+.album-pic-page {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 50%;
+}
+
+.album {
+  padding: .1rem;
+}
+
+:first-child {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.score {
+  background: #E2E2E2;
+  font-size: larger;
+}
+
+.ave {
+  text-align: center;
+}
+
+.this-month {
+  background: red;
+}
+
+.artist {
+  padding: 0;
+  margin: 0 !important;
+  text-align: center;
+}
+
+.album-info {
+  padding: 1rem 0 1rem 1rem;
+}
+
+.album-data {
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding: 1.2rem;
+  border-radius: 4px;
+}
+
+.flex {
+  margin: 0 !important;
+}
+
+.site-main > * {
+  margin: 0 !important;
+  padding: 0;
+}
+
+.date {
+  font-size: 1.2rem;
+  color: #a9a5a5;
+  padding-bottom: 2rem;
+}
+
+.p-l {
+  padding-left: 1rem;
+  margin: 0 auto;
+}
+
+.spotify-link {
+  display: block;
+  width: 50px;
+  margin: 0 auto;
+}
+
+.r {
+  color: red;
+}
+
+.intro-link {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.site-header.has-title-and-tagline.has-menu {
+  padding-bottom: 3px;
+}
+
+.random {
+  text-align: center;
+  color: red;
+}
+
+.content-area {
+  text-align: center;
+}
+
+.menu-test-jim {
+  background-color: orange;
+  color: rosybrown;
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
