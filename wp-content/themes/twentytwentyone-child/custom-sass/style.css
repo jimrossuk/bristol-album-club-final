@@ -141,7 +141,7 @@ a {
 }
 
 .menu-test-jim {
-  background-color: orange;
+  background-color: orange !important;
   color: rosybrown;
   display: block;
 }
