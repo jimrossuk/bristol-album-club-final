@@ -8,19 +8,19 @@
  */
 
 ?>
-
 <?php if ( has_nav_menu( 'primary' ) ) : ?>
 	<nav id="site-navigation" class="primary-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary menu', 'twentytwentyone' ); ?>">
-		<div class="menu-button-container">
-			<button id="primary-mobile-menu" class="button" aria-controls="primary-menu-list" aria-expanded="false">
-				<span class="dropdown-icon open menu-test-jim"><?php esc_html_e( 'test', 'twentytwentyone' ); ?>
+    <h1 class="nav-link-test"> <a href="https://bristolalbumclub.com/random">  Random Number</a></h1>
+		<!-- <div class="menu-button-container">
+			<button id="primary-mobile-menu" class="button" aria-controls="primary-menu-list" aria-expanded="true">
+				<!-- <span class="dropdown-icon open "><?php esc_html_e( 'test', 'twentytwentyone' ); ?>
 					<?php echo twenty_twenty_one_get_icon_svg( 'ui', 'menu' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
 				</span>
 				<span class="dropdown-icon close"><?php esc_html_e( 'Close', 'twentytwentyone' ); ?>
 					<?php echo twenty_twenty_one_get_icon_svg( 'ui', 'close' ); // phpcs:ignore WordPress.Security.EscapeOutput ?>
-				</span>
-
-			</button><!-- #primary-mobile-menu -->
+				</span> -->
+				
+			</button> 
 		</div><!-- .menu-button-container -->
 		<?php
 		wp_nav_menu(

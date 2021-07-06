@@ -1,4 +1,4 @@
-@import"media-enquires";
+@import"media-enquires.scss";
 
 *{
     box-sizing:border-box;
@@ -8,6 +8,18 @@
 p{
     text-align: inherit;
 }
+
+a, .nav-link-test {
+    background-color: firebrick;
+    text-align: end;
+    font-size: initial;
+    word-wrap: none;
+    border-radius: 3px;
+  }
+  
+// .site-header{
+//     background-color: firebrick !important;
+// }
 
 h2{
     text-align: center;
@@ -157,3 +169,21 @@ padding-bottom: 3px;
     color: rosybrown;
     display: block;
 }
+
+
+// .dropdown-icon {
+
+//     &.open {
+//         display: none;
+//         background-color: red;
+//     }
+
+//     &.close {
+//         display: flex;
+
+//         .has-logo.has-title-and-tagline & {
+//             animation-name: twentytwentyone-close-button-transition;
+//             animation-duration: 13.3s;
+//         }
+//     }
+// }
